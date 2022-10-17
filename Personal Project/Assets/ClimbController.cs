@@ -8,9 +8,21 @@ public class ClimbController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (xrRig == null)
+            xrRig = GameObject.Find("XR Rig");
+    }
+     void Grab()
+    {
+
+    }
+    public void Pull(Vector3 distance)
+    {
+        xrRig.transform.Translate(distance);
     }
 
+    public void Release()
+    {
+    }
     // Update is called once per frame
     void Update()
     {
