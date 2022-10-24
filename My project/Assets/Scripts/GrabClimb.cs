@@ -23,6 +23,7 @@ public class GrabClimb : MonoBehaviour
         isGrabbing = true;
         handPosition = InteractorPosition();
         climbController.Grab();
+        Debug.Log("Grabbing");
     }
 
     private Vector3 InteractorPosition()
@@ -41,11 +42,14 @@ public class GrabClimb : MonoBehaviour
             Vector3 delta = handPosition - InteractorPosition();
             climbController.Pull(delta);
             handPosition = InteractorPosition();
+           
+
         }
     }
     public void Release()
     {
         isGrabbing = false;
         climbController.Release();
+        Debug.Log("Release");
     }
 }
