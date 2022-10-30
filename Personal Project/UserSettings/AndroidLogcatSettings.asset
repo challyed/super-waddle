@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "1WMHH8138L0342",
         "name": "com.DefaultCompany.PersonalProject",
-        "processId": 12148,
+        "processId": 30744,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,25 +11,43 @@
         {
             "deviceId": "1WMHH8138L0342",
             "name": "com.DefaultCompany.PersonalProject",
-            "processId": 9555,
+            "processId": 26820,
             "exited": true
         },
         {
             "deviceId": "1WMHH8138L0342",
             "name": "com.DefaultCompany.PersonalProject",
-            "processId": 11635,
+            "processId": 27785,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8138L0342",
+            "name": "com.DefaultCompany.PersonalProject",
+            "processId": 28390,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8138L0342",
+            "name": "com.DefaultCompany.PersonalProject",
+            "processId": 28956,
+            "exited": true
+        },
+        {
+            "deviceId": "1WMHH8138L0342",
+            "name": "com.DefaultCompany.PersonalProject",
+            "processId": 29474,
             "exited": true
         },
         {
             "deviceId": "1WMHH8138L0342",
             "name": "com.oculus.shellenv",
-            "processId": 3440,
+            "processId": 2106,
             "exited": false
         },
         {
             "deviceId": "1WMHH8138L0342",
             "name": "com.DefaultCompany.PersonalProject",
-            "processId": 12148,
+            "processId": 30744,
             "exited": false
         }
     ],
@@ -41,7 +59,7 @@
             },
             {
                 "m_Name": "No Filter",
-                "m_Selected": true
+                "m_Selected": false
             },
             {
                 "m_Name": "",
@@ -57,7 +75,7 @@
             },
             {
                 "m_Name": "Unity",
-                "m_Selected": false
+                "m_Selected": true
             },
             {
                 "m_Name": "CRASH",
